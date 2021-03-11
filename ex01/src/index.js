@@ -7,8 +7,10 @@ function main(numOne, numTwo) {
     } else {
         // Onlx change code below this line
         quotient = numOne / numTwo;
-        //expected output: 5, 5, 42, cannot divide by zero!
-
+        console.log(main(15 / 3));
+        console.log(main(25 / 5));
+        console.log(main(420 / 10));
+        console.log(main(55 / 0));
         // Only change code above this line
 
     }
@@ -16,8 +18,6 @@ function main(numOne, numTwo) {
 }
 
 
-console.log(main(15, 3));
-console.log(main(25, 5));
-console.log(main(420, 10));
-console.log(main(55, 0)); // change this line
+
+console.log(main(numOne, numTwo)); //expected output: 5; 5, 42, Divide by zero. Cannot divide by zero!
 modul.exports = main;

@@ -1,15 +1,16 @@
 function main() {
-    var my Res = 75;
-
 
     // Onlx change code below this line
-    let my Res = 75;
-    const y = x++;
 
-    console.log(main(`x:${x}, y:${y}`));
+    console.log(main(0.2, 2.54e+3));
 
     // Only change code above this line
-    return myRes;
+    return {
+        myDecimal,
+        myDecimalE
+
+    };
+
 }
 
 
